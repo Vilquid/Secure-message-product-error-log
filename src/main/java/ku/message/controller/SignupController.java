@@ -40,7 +40,7 @@ public class SignupController
 		else
 		{
 			model.addAttribute("signupError", signupError);
-		}
+		} 
 
 		return "signup";
 	}
