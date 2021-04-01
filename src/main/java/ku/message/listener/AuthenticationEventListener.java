@@ -26,6 +26,7 @@ public class AuthenticationEventListener
 		{
 			logger.warn("Failed login attempt [incorrect USERNAME]");
 		}
+
 		else
 		{
 			logger.warn("Failed login attempt [incorrect PASSWORD]");
